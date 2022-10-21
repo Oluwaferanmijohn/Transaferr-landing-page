@@ -4,6 +4,8 @@ import {
 } from 'https:/cdnjs.cloudflare.com/ajax/libs/firebase/9.9.2/firebase-auth.min.js';
 import {
     getFirestore,
+    collection,
+    doc
 } from 'https:/cdnjs.cloudflare.com/ajax/libs/firebase/9.9.2/firebase-firestore.min.js';
 import {
     initializeApp,
@@ -25,7 +27,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-const db = getFirestore(app);
+export const db = getFirestore(app);
+
 export const auth = getAuth(app);
 
 
