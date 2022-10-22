@@ -29,6 +29,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="overflow.css" rel="stylesheet">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -56,7 +57,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about1" class="nav-item nav-link">About</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#feature" class="nav-item nav-link">Feature</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
@@ -93,7 +94,7 @@
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5" id="about1">
+        <div class="container-xxl py-5" id="about">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -200,7 +201,7 @@
 
 
         <!-- Screenshot Start -->
-        <div class="container-xxl py-5">
+        <div id="screenshot" class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
@@ -228,7 +229,7 @@
 
 
         <!-- Process Start -->
-        <div class="container-xxl py-5">
+        <div id="process" class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="text-primary-gradient fw-medium">What We Have To Offer.</h5>
@@ -269,7 +270,7 @@
 
 
         <!-- Download Start -->
-        <div class="container-xxl py-5">
+        <div id="download" class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
@@ -315,7 +316,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="wow fadeInUp" data-wow-delay="0.3s">
-                            <p class="text-center mb-4">Should in case you have a complain, suggestion or any ideas concerning this projec (Transferr). do well, to fill out form below and we give a response asap.</p>
+                            <p class="text-center mb-4">Should in case you have a complain, suggestion or any ideas concerning this project (Transferr). Do well, to fill out form below and we give a response asap.</p>
                             <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -389,6 +390,9 @@
                             <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email"
                             id="email" style="height: 48px;">
                             <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary-gradient fs-4"></i></button>
+
+                             <p id="errorMessage" class="text-white pb-3 animated slideInDown"></p>
+                            <p id="errorMessageOne" class="text-white pb-3 animated slideInDown"></p>
                         </div>
                     </div>
                 </div>
@@ -416,7 +420,7 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+        <a id="backToTop" href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
