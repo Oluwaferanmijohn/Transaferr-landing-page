@@ -19,7 +19,7 @@
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #0059ac;
-    --bs-secondary: #012241;
+    --bs-secondary: #0038e1;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
@@ -2895,8 +2895,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
     color: #fff;
-    background-color: #012241;
-    border-color: #012241
+    background-color: #0038e1;
+    border-color: #0038e1
 }
 
 .btn-secondary:hover {
@@ -2924,8 +2924,8 @@ textarea.form-control-lg {
 
 .btn-secondary:disabled, .btn-secondary.disabled {
     color: #fff;
-    background-color: #012241;
-    border-color: #012241
+    background-color: #0038e1;
+    border-color: #0038e1
 }
 
 .btn-success {
@@ -3169,14 +3169,14 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-    color: #012241;
-    border-color: #012241
+    color: #0038e1;
+    border-color: #0038e1
 }
 
 .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #012241;
-    border-color: #012241
+    background-color: #0038e1;
+    border-color: #0038e1
 }
 
 .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
@@ -3185,8 +3185,8 @@ textarea.form-control-lg {
 
 .btn-check:checked+.btn-outline-secondary, .btn-check:active+.btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
     color: #fff;
-    background-color: #012241;
-    border-color: #012241
+    background-color: #0038e1;
+    border-color: #0038e1
 }
 
 .btn-check:checked+.btn-outline-secondary:focus, .btn-check:active+.btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
@@ -3194,7 +3194,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-    color: #012241;
+    color: #0038e1;
     background-color: transparent
 }
 
@@ -6385,7 +6385,7 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-    color: #012241
+    color: #0038e1
 }
 
 .link-secondary:hover, .link-secondary:focus {
@@ -6798,7 +6798,7 @@ textarea.form-control-lg {
 }
 
 .border-secondary {
-    border-color: #012241 !important
+    border-color: #0038e1 !important
 }
 
 .border-success {
@@ -7775,7 +7775,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-    color: #012241 !important
+    color: #0038e1 !important
 }
 
 .text-success {
@@ -7831,7 +7831,7 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-    background-color: #012241 !important
+    background-color: #0038e1 !important
 }
 
 .bg-success {
