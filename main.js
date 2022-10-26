@@ -13,12 +13,13 @@ const emailVal = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\")
 getBtn.addEventListener("click", async () => {
     if (!emailVal.test(email.value)) {
         errorMessageTwo.style.display = 'block';
-        errorMessageTwo.innerText += `enter a vaild email address`
+        // errorMessageTwo.innerText += `enter a vaild email address`
        
-        window.location.reload()
+        // window.location.reload()
     } else {
         errorMessage.style.display = 'block'
-        errorMessage.innerText += `processing email address`
+        // errorMessage.innerText += `processing email address`
+        errorMessageTwo.style.display = 'none';
         let currEmail = email.value
 
         if (currEmail.length > 0) {
@@ -31,10 +32,11 @@ getBtn.addEventListener("click", async () => {
                 let res = await setDoc(docRef, data)
                 // console.log(res)
                 errorMessage.style.display = 'none'
+                errorMessageTwo.style.display = 'none'
                 errorMessageOne.style.display = 'block'
-                errorMessageOne.innerText += `Email Registered Successfully!`
+                // errorMessageOne.innerText += `Email Registered Successfully!`
                 // alert("success")
-                window.location.reload()
+                // window.location.reload()
 
 
             } catch (err) {

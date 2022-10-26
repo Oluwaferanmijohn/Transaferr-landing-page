@@ -2,7 +2,7 @@
     overflow: hidden !important;
 }
 
-#errorMessage {
+#errorMessage  {
     background-color: white !important;
     color: rgb(0, 224, 0) !important;
     border: none;
