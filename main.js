@@ -17,6 +17,7 @@ xOne.addEventListener("click", () =>{
 })
 xTwo.addEventListener("click", () =>{
     errorMessageOne.style.display = 'none'
+    window.location.reload()
 })
 xThree.addEventListener("click", () =>{
     errorMessage.style.display = 'none'
