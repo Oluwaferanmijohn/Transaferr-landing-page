@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #0038e1;
-    --secondary: #0038e1;
+    --secondary: #0331b9;
     --light: #F0F6FF;
     --dark: #262B47;
 }
@@ -238,7 +238,7 @@ h6,
         left: 0;
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
