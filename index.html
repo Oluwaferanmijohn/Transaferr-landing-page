@@ -56,13 +56,8 @@
                             alt="">
 
                     </a>
-                    <!-- <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars"></span>
-                    </button> -->
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"> <span class="fa fa-bars"></span> </button> -->
                     <div class="collapse navbar-collapse" id="navbarCollapse"></div>
                     <a
                         href="#home"
@@ -89,24 +84,23 @@
                                         <i class="fa fa-paper-plane text-primary-gradient fs-4"></i>
                                     </button>
 
-                                      <div id="errorMessageTwo" class="message-container">
+                                    <div id="errorMessageTwo" class="message-container">
                                         <h5>Invaild Email Address</h5>
-                                            <div>
-                                                <i id="xOne"
-                                                class="fa-solid fa-x"></i>
-                                            </div>
+                                        <div>
+                                            <i id="xOne" class="fa-solid fa-x"></i>
+                                        </div>
                                     </div>
                                     <div id="errorMessageOne" class="message-container">
                                         <h5>Email Registered Successfully!</h5>
-                                            <div>
-                                                <i  id="xTwo" class="fa-solid fa-x"></i>
-                                            </div>
+                                        <div>
+                                            <i id="xTwo" class="fa-solid fa-x"></i>
+                                        </div>
                                     </div>
                                     <div id="errorMessage" class="message-container">
                                         <h5>Processing Email Address</h5>
-                                            <div>
-                                                <i id="xThree" class="fa-solid fa-x"></i>
-                                            </div>
+                                        <div>
+                                            <i id="xThree" class="fa-solid fa-x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -186,8 +180,6 @@
             </div>
             <!-- About End -->
 
-          
-
             <!-- Download Start -->
             <div id="download" class="container-xxl py-5">
                 <div class="container py-5 px-lg-5">
@@ -236,7 +228,7 @@
                 data-wow-delay="0.1s">
                 <div class="container py-5 px-lg-5">
                     <div class="row g-5">
-                     
+
                         <div class="col-md-6 col-lg-3">
                             <p>
                                 <i class="fa fa-envelope me-3"></i>Transferr@gmail.com</p>
@@ -285,76 +277,85 @@
                                     2022.
                                 </a>, All Right Reserved.
                             </div>
-                            <div class="col-md-6 text-center text-md-end">
-                                <div class="footer-menu">
-                                    <a href="">Home</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Footer End -->
-
-            <!-- Back to Top -->
-            <a id="backToTop" href="#" class="btn btn-lg btn-lg-square back-to-top pt-2">
-                <i class="bi bi-arrow-up text-white"></i>
-            </a>
         </div>
+        <!-- Footer End -->
+        <!-- pop up after successful email -->
+        <div id="popUp" class="popUp">
+            <div class="popUpContainer">
+                <h2>You Have Successfully Joined The Waitlist.</h2>
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Check Your Mail Box For Our Welcome Mail.</h4>
+                <p>Updates On Transferr Will Be Constantly Sent To Your Mail. <br> Check Your Inbox
+                    Or Spam Folder For Our Mail.</p>
+                    <button id="homeBtn">Back To Home</button>
+            </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://kit.fontawesome.com/dff98c45d4.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <div>
+                 
+            </div>
+        </div>
+        <!-- pop up after successful email -->
 
-        <!-- Template Javascript -->
-        <script type="module" src="./js/main.js"></script>
-        <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Jun 5, 2023 00:00:00").getTime();
+        <!-- Back to Top -->
+        <a id="backToTop" href="#" class="btn btn-lg btn-lg-square back-to-top pt-2">
+            <i class="bi bi-arrow-up text-white"></i>
+        </a>
+    </div>
 
-            // Update the count down every 1 second
-            var x = setInterval(function () {
+    <!-- JavaScript Libraries -->
+    <script src="https://kit.fontawesome.com/dff98c45d4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-                // Get today's date and time
-                var now = new Date().getTime();
+    <!-- Template Javascript -->
+    <script type="module" src="./js/main.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jun 5, 2023 00:00:00").getTime();
 
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
+        // Update the count down every 1 second
+        var x = setInterval(function () {
 
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // Get today's date and time
+            var now = new Date().getTime();
 
-                // Output the result in an element with id="demo"
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document
+                .getElementById("demo")
+                .innerHTML = days + "days " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(x);
                 document
                     .getElementById("demo")
-                    .innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                    .innerHTML = "We Are Live Now.";
+            }
+        }, 1000);
+    </script>
 
-                // If the count down is over, write some text
-                if (distance < 0) {
-                    clearInterval(x);
-                    document
-                        .getElementById("demo")
-                        .innerHTML = "We Are Live Now.";
-                }
-            }, 1000);
-        </script>
-
-        <!-- <script src="./users/user.js"></script> <script
-        src="./users/data.js"></script> -->
-        <script src="./main.js" type="module"></script>
-    </body>
+    <!-- <script src="./users/user.js"></script> <script
+    src="./users/data.js"></script> -->
+    <script src="./main.js" type="module"></script>
+</body>
 
 </html>

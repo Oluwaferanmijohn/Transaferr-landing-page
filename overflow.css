@@ -44,7 +44,7 @@
     align-items: center;
     background-color: red;
     color: white !important;
-    
+
 }
 
 .text-align {
@@ -72,4 +72,50 @@
     color: white;
     margin-right: 2em;
     font-size: 0.8em !important;
+}
+
+.popUpContainer {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+.popUp {
+    background-color: #0331b9;
+    top: 0;
+    z-index: 1000 !important;
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popUp h2 {
+    color: #062172;
+}
+
+.popUp h4 {
+    color: #062172;
+}
+
+.popUp p {
+    color: #0331b9;
+    font-size: 0.7em;
+}
+
+.popUp i {
+    font-size: 10em;
+    color: #0331b9;
+}
+
+.popUp .popUpContainer button {
+    border: none;
+    border-radius: 10px;
+    background-color: #0331b9;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em;
 }
