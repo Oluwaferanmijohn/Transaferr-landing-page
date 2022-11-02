@@ -119,3 +119,11 @@
     font-size: 1.2em;
     padding: 0.5em;
 }
+
+canvas {
+    top: 0;
+    overflow: hidden !important;
+    width: 100vw !important;
+    position: absolute;
+    z-index: 10;
+}

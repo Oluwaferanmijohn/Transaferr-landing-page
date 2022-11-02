@@ -12,6 +12,7 @@ let xOne = document.getElementById('xOne')
 let xTwo = document.getElementById('xTwo')
 let xThree = document.getElementById('xThree')
 let popUp = document.getElementById('popUp') 
+let canvas = document.getElementById('canvas') 
 let homeBtn = document.getElementById('homeBtn')  
 const emailVal = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 xOne.addEventListener("click", () =>{
@@ -58,6 +59,14 @@ getBtn.addEventListener("click", async () => {
                 // window.location.reload()
                 popUp.style.display = 'flex'
 
+// animationnnnnnnn
+
+                
+                
+// animationnnnnnnn
+
+                canvas.style.display = 'flex'
+
 
 
             } catch (err) {
@@ -70,31 +79,4 @@ getBtn.addEventListener("click", async () => {
 
 
     }
-
-
-    // let currEmail = email.value
-
-
-
-    // if (currEmail.length > 0) {
-    //     try {
-    //         const data = {
-    //             email: currEmail
-    //         }
-    //         let randomUserId = 'VIC' + Math.floor(Math.random() * 23748495 + 20000)
-    //         const docRef = doc(db, 'users', randomUserId)
-    //         let res = await setDoc(docRef, data)
-    //         // console.log(res)
-    //         errorMessage.innerText +=`testing microphone`
-    //         // alert("success")
-    //         window.location.reload()
-
-
-    //     } catch (err) {
-    //         console.log(err)
-    //     }
-
-    // } else {
-    //     console.log("Email is missing")
-    // }
 })
