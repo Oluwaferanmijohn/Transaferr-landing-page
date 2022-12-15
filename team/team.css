@@ -14,7 +14,8 @@ header {
     justify-content: space-between;
     padding: 0 1em;
     background-color: white;
-
+    position: sticky;
+    top: 0;
     box-shadow: 2px 6px 7px -3px rgba(0, 0, 0, 0.75);
 }
 
@@ -90,3 +91,56 @@ header img {
     margin: 2em 0;
     border-right: 1px #0331b9 solid;
 }
+
+/* main css */
+.home {
+    color: white;
+    height: 100vh;
+    background-color: #0233c7;
+    z-index: -1;
+}
+
+.companylogo {
+    margin-top: 25vh;
+    max-width: 100%;
+}
+
+.companylogo img {
+    width: 25em;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.welcometext h2 {
+    font-size: 2.8em;
+}
+
+.welcometext p {
+    margin-top: 2.5em;
+}
+
+.welcometext {
+    margin: 8em;
+
+}
+
+.action-button button {
+    border: none;
+    font-size: 1 em;
+    margin-top: 2em;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: #0331b9;
+    font-weight: 700;
+}
+
+#getStarted4 {
+    display: none;
+}
+
+/* main css */
