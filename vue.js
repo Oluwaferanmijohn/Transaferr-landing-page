@@ -711,11 +711,7 @@
                 t = e
                     ? t.slice(1)
                     : t
-            ).charAt(0),
-            r = "!" === (
-                t = n
-                    ? t.slice(1)
-                    : t
+            ).charAt(0),z                    : t
             ).charAt(0);
         return {
             name: t = r
